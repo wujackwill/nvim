@@ -48,7 +48,6 @@ local plugins = {
     { "nvim-treesitter/nvim-treesitter", cmd = "TSUpdate" },
     "jay-babu/mason-null-ls.nvim",
     "jose-elias-alvarez/null-ls.nvim",
-    'jalvesaq/Nvim-R',
     "ThePrimeagen/vim-be-good",
     "nvim-treesitter/nvim-treesitter-context",
     "tpope/vim-fugitive",
