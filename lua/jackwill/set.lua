@@ -22,4 +22,6 @@ vim.opt.colorcolumn = "80"
 
 
 
-
+vim.api.nvim_exec([[
+  autocmd FileType r setlocal shiftwidth=2 tabstop=2 softtabstop=2
+]], false)

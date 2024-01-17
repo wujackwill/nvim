@@ -46,6 +46,7 @@ local plugins = {
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
     { "nvim-treesitter/nvim-treesitter", cmd = "TSUpdate" },
+    'nvim-treesitter/playground',
     "jay-babu/mason-null-ls.nvim",
     "jose-elias-alvarez/null-ls.nvim",
     "ThePrimeagen/vim-be-good",
@@ -81,6 +82,10 @@ local plugins = {
         end,
         ft = { "markdown" },
     },
+    {
+        'nvim-lualine/lualine.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
+    }
 
 
 }
