@@ -86,7 +86,8 @@ local plugins = {
         'nvim-lualine/lualine.nvim',
         dependencies = { 'nvim-tree/nvim-web-devicons' }
     },
-    "github/copilot.vim"
+    "github/copilot.vim",
+    { dir = "D:\\personal\\config-replicator"}
 
 
 }

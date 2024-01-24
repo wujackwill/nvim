@@ -34,4 +34,18 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 
+P = function(v)
+    print(vim.inspect(v))
+    return v
+end
+
+
+RELOAD = function(...)
+    return require("plenary.reload").reload_module(...)
+end
+
+R = function(name)
+    RELOAD(name)
+    return require(name)
+end
 

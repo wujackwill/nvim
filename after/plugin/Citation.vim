@@ -28,5 +28,6 @@
 
 
 map <silent><leader>cp :!pandoc --pdf-engine=xelatex % -o %:r.pdf -V mainfont="SimSun"  --citeproc --bibliography="D:\\Zotero\\m.bib" --csl D:\personal\styles\china-national-standard-gb-t-7714-2015-author-date.csl<CR>
+map <silent><F9> :!pandoc --pdf-engine=xelatex % -o %:r.html -V mainfont="SimSun"  --citeproc --bibliography="D:\\Zotero\\m.bib" --csl D:\personal\styles\american-psychological-association-7th-edition(personal).csl --css=https://benjam.info/panam/styling.css -s<CR>
 map <silent><leader>cw :!pandoc --pdf-engine=xelatex % -o %:r.docx -V mainfont="SimSun"  --citeproc --bibliography="D:\\Zotero\\m.bib" --csl D:\personal\styles\china-national-standard-gb-t-7714-2015-author-date.csl<CR>
 map <silent><leader>cq :!pandoc --pdf-engine=xelatex % -t beamer -o %:r.pdf -V mainfont="SimSun"  --citeproc --bibliography="D:\\Zotero\\m.bib" --csl D:\personal\styles\china-national-standard-gb-t-7714-2015-author-date.csl<CR>
