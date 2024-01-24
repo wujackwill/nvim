@@ -21,7 +21,6 @@ local plugins = {
     },
 
     "ThePrimeagen/harpoon",
-    { 'folke/tokyonight.nvim' },
     -- LSP Support
     {
         'VonHeikemen/lsp-zero.nvim',
