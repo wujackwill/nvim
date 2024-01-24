@@ -3,4 +3,3 @@ vim.g.mapleader = ' '
 require("jackwill.plugins")
 require("jackwill.set")
 require("jackwill.remap")
-

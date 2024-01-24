@@ -40,7 +40,7 @@ local plugins = {
     },
 
     'mbbill/undotree',
-    { 'rose-pine/neovim',     name = 'rose-pine' },
+    { 'rose-pine/neovim',                name = 'rose-pine' },
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
@@ -85,10 +85,16 @@ local plugins = {
         'nvim-lualine/lualine.nvim',
         dependencies = { 'nvim-tree/nvim-web-devicons' }
     },
+    { dir = "D:\\personal\\config-replicator" },
+    { "folke/neodev.nvim", },
     "github/copilot.vim",
-    { dir = "D:\\personal\\config-replicator"}
-
-
+    {
+        'numToStr/Comment.nvim',
+        opts = {
+            -- add any options here
+        },
+        lazy = false,
+    }
 }
 
 local opts = {}
