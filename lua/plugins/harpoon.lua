@@ -22,7 +22,7 @@ return {
         desc = "harpoon file",
       },
       {
-        "<leader><Tab>",
+        "<Tab>",
         function()
           local harpoon = require("harpoon")
           harpoon.ui:toggle_quick_menu(harpoon:list())
